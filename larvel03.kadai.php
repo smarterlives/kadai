@@ -12,9 +12,17 @@ for ($i = 0; $i <= 10000; $i++) {
 }
 echo $total;
 
-$fruit = array("apple","orange","grape","banana","pinapple");
+$fruit = array("apple", "orange", "grape", "banana", "pinapple");
 foreach($fruit as $fruit){
     echo "要素は" . $fruit;
     echo "\n";
 }
 
+$start = 1;
+$end = 100;
+for ($i = $start; $i <= $end; $i++) {
+    if($i % 5 ==0){
+        echo $i;
+        echo "\n";
+    }
+    }
